@@ -1,0 +1,10 @@
+export DOCKER_HOST=tcp://0.0.0.0:2375
+export MAVEN_HOME=/mnt/c/Users/danborse/dev/tools/maven
+export KAFKA=/mnt/c/Users/danborse/dev/tools/confluent/bin
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle/
+
+export ALTERNATE_EDITOR=""
+export EDITOR=emacsclient
+
+LS_COLORS=$LS_COLORS:'di=0;35:' 
+export LS_COLORS

@@ -1,0 +1,27 @@
+alias reload='. ~/.zshrc'
+
+alias ls='ls -GFh --color=auto'
+
+alias ping='ping -c 3'
+
+alias projects="cd /mnt/c/Users/danborse/dev/projects"
+alias tools="cd /mnt/c/Users/danborse/dev/tools"
+alias notes="cd /mnt/c/Users/danborse/notes"
+alias sandbox="cd /mnt/c/Users/danborse/dev/sandbox"
+
+alias e='emacsclient -tq'
+
+alias pac='sudo pacman -S'	# Install
+alias pacu='sudo pacman -Syu'	# Update
+alias pacr='sudo pacman -Rs'	# Remove
+alias pacs='sudo pacman -Ss'	# Search
+alias paci='sudo pacman -Si'	# Info
+
+if [ $commands[kubectl] ]; then
+  source <(kubectl completion zsh)
+fi
+
+alias k='kubectl'
+alias kpods='kubectl get pods -lapp=${PWD##*/}'
+alias kdesc='kubectl describe pods -lapp=${PWD##*/}'
+alias ktop='kubectl top pods -lapp=${PWD##*/}'
