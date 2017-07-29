@@ -1,4 +1,4 @@
-source /mnt/c/Users/danborse/dev/tools/antigen/antigen.zsh
+source /usr/share/zsh/share/antigen.zsh
 
 antigen use oh-my-zsh
 
