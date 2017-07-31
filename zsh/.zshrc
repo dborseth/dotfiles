@@ -3,15 +3,10 @@ source /mnt/c/Users/danborse/dev/tools/antigen/antigen.zsh
 antigen use oh-my-zsh
 
 antigen bundle git
-antigen bundle python
-antigen bundle heroku
-antigen bundle pip
-antigen bundle lein
 antigen bundle command-not-found
 antigen bundle gradle
 antigen bundle extract
-antigen bundle node
-antigen bundle npm
+antigen bundle kubectl
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
