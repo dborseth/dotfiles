@@ -1,3 +1,5 @@
+export PATH=$PATH:/mnt/c/Windows/System32
+
 export DOCKER_HOST=tcp://0.0.0.0:2375
 export MAVEN_HOME=/mnt/c/Users/danborse/dev/tools/maven
 export KAFKA=/mnt/c/Users/danborse/dev/tools/confluent/bin
