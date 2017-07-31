@@ -17,10 +17,6 @@ alias pacr='sudo pacman -Rs'	# Remove
 alias pacs='sudo pacman -Ss'	# Search
 alias paci='sudo pacman -Si'	# Info
 
-if [ $commands[kubectl] ]; then
-  source <(kubectl completion zsh)
-fi
-
 alias k='kubectl'
 alias kpods='kubectl get pods -lapp=${PWD##*/}'
 alias kdesc='kubectl describe pods -lapp=${PWD##*/}'
