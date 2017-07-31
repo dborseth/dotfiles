@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-for d in `ls .`;
-do
-    ( stow $d )
-done
+sudo pacman -S stow --needed
+
+cd ~/dotfiles
+
+stow emacs
+stow zsh
+stow git
