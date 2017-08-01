@@ -9,7 +9,7 @@ alias tools="cd /mnt/c/Users/danborse/dev/tools"
 alias notes="cd /mnt/c/Users/danborse/notes"
 alias sandbox="cd /mnt/c/Users/danborse/dev/sandbox"
 
-alias e='emacsclient -tq'
+alias e='emacs'
 
 alias pac='sudo pacman -S'	# Install
 alias pacu='sudo pacman -Syu'	# Update
