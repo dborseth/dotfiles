@@ -86,3 +86,9 @@
   (setq-default
    markdown-assymetric-header t
    markdown-split-window-direction 'right))
+
+;; Org
+(use-package org
+  :delight org-mode "Org")
+
+(use-package ox-pandoc)
